@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp2.1</TargetFrameworks>
+    <DebugType>portable</DebugType>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>OrchardSkills.OrchardCore.YesSQL</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>OrchardSkills.OrchardCore.YesSQL</PackageId>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="YesSql.Abstractions" Version="2.0.0-beta-1514" />
+	<PackageReference Include="YesSql.Core" Version="2.0.0-beta-1514" />
+	<PackageReference Include="YesSql.Provider.MySql" Version="1.0.0-beta-1514" />
+	<PackageReference Include="YesSql.Provider.PostgreSql" Version="1.0.0-beta-1514" />
+	<PackageReference Include="YesSql.Provider.Sqlite" Version="1.0.0-beta-1514" />
+	<PackageReference Include="YesSql.Provider.SqlServer" Version="1.0.0-beta-1514" />
+  </ItemGroup>
+	
+</Project>
