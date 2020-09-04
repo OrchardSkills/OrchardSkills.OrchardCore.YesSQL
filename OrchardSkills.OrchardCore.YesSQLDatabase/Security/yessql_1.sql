@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [yessql]
+    WITH PASSWORD = N'wIqNtyk9kqQssg|zziB4|uzpmsFT7_&#$!~<fGyzhwq|uvkk', SID = 0xDFAFDF3D0B8A244C8C2DDDCBDFF638AB, DEFAULT_LANGUAGE = [us_english], CHECK_POLICY = OFF;
+

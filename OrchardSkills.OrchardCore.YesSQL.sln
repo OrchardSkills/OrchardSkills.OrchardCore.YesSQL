@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "OrchardSkills.OrchardCore.YesSQLDatabase", "OrchardSkills.OrchardCore.YesSQLDatabase\OrchardSkills.OrchardCore.YesSQLDatabase.sqlproj", "{AFF09FD6-6867-4EB3-B4F4-BE1A1F368804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,12 @@ Global
 		{DEF13602-CB00-47CB-8985-F5A6A5B80BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF13602-CB00-47CB-8985-F5A6A5B80BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF13602-CB00-47CB-8985-F5A6A5B80BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF09FD6-6867-4EB3-B4F4-BE1A1F368804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF09FD6-6867-4EB3-B4F4-BE1A1F368804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF09FD6-6867-4EB3-B4F4-BE1A1F368804}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AFF09FD6-6867-4EB3-B4F4-BE1A1F368804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF09FD6-6867-4EB3-B4F4-BE1A1F368804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF09FD6-6867-4EB3-B4F4-BE1A1F368804}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,7 +19,7 @@ namespace OrchardSkills.OrchardCore.YesSQL
         {
             var store = await StoreFactory.CreateAsync(
                 new Configuration()
-                    .UseSqlServer(@"Server=(localdb)\\MSSQLLocalDB;Database=YesSQL;Persist Security Info=False;User ID=yessql;Password=Montana$1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")
+                    .UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=YesSQL;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False")
                     .SetTablePrefix("OrchardSkills")
                 );
 
